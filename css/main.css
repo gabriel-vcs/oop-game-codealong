@@ -1,3 +1,25 @@
 body {
-  background-color: rgb(31, 1, 13);
+  background-color: black;
+}
+
+#board {
+  background-color: rgb(246, 188, 95);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+div {
+  display: block;
+}
+
+.player {
+  background-color: aqua;
+  position: absolute;
+}
+
+.obstacle {
+  background-color: rgb(206, 7, 83);
+  position: absolute;
 }
